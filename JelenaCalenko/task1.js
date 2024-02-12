@@ -1,7 +1,7 @@
 db.txs.aggregate([
     {
         $sort: {
-            amount: 1
+            amount: -1
         }
     }
 ])
