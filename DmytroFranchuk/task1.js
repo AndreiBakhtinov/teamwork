@@ -2,7 +2,7 @@
 db.txs.aggregate([
     {
         $sort: {
-            size: -1
+            amount: -1
         }
     }
 ]);
