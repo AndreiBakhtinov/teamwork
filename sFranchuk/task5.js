@@ -1,5 +1,3 @@
 db.txs.aggregate([
-    {$group: {_id: null,
-            count: {$count: {}}}},
-
+    {$count: 'total_count'}
 ])
