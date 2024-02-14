@@ -1,1 +1,3 @@
-db.txs.countDocuments()
+db.txs.aggregate([
+{$count: 'all_transactions'}
+])
